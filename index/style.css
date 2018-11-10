@@ -34,8 +34,8 @@ body, html {
   display: none;
 }
 .slideshow .slider .item img {
-  width: 80%;
-  height: auto;
+  width: 101%;
+  height: 101%;
   position: absolute;
   top: 50%;
   left: 50%;

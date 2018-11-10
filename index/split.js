@@ -4,6 +4,7 @@ var $slider = $('.slideshow .slider'),
   tracking,
   rightTracking;
 
+//clone the slide show and add the 'slideshow-right' class then append to div with class 'split-slideshow'
 $sliderRight = $('.slideshow').clone().addClass('slideshow-right').appendTo($('.split-slideshow'));
 
 rightItems = $('.item', $sliderRight).toArray();
